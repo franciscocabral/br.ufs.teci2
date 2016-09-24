@@ -1,0 +1,11 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 29 de julho às 01:01 · 
+PATCH NOTES!
+Primeiro de tudo, a versão 0.2.0 da APK está disponível pra download! Ela agora está no mesmo ponto que o browser, então recomendo que baixem! https://github.com/fio…/pocketTactics-apk/releases/tag/0.2.0
+--------------------------------------------
+(#35) O jogo estava apresentando problemas na hora de criar novas contas (tanto no mobile quanto no browser). Isso foi resolvido!
+--------------------------------------------
+Implementei o reset das contas. Agora você pode resetá-la a hora que quiser, basta acessar seu menu de configurações (o mesmo que usa pra mudar o avatar). Conforme eu falei, não vou forçar ninguém a fazer isso... mas posso incentivar ;)
+Toda vez que eu fizer uma mudança drástica e achar que um reset vai ajudar vocês a experienciar essa mudança, o bonus do reset será alterado. Esses bonus são cumulativos, então se você der o reset agora, no próximo (caso aconteça) você vai ganhar esse bonus + o outro.
+Quer saber os atributos desse Cajado Lngo? Acesse sua conta agora e dê uma olhada :p
+Nenhum texto alternativo automático disponível.

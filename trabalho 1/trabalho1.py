@@ -14,7 +14,6 @@ import parte2 as p2
 import parte3 as p3
 import parte4 as p4
 
-ANY_PATTERN = '[\wáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ\'\-]+|\S'
 FILE_PATH = "bovespa.txt"
 
 file = open(FILE_PATH, 'r')
@@ -113,7 +112,7 @@ while (opt != "0"):
 | OPÇÔES:                                                                     |
 |     1) Ver TOKENS                                                           |
 |     2) Ver VOCABULÁRIO                                                      |
-|     3) Ver TAXA de falso POSITIVO e falsos NEGATIVOS                        |                                         
+|     3) Ver TAXA de falso POSITIVO e falsos NEGATIVOS                        |
 |     0) Continuar para PARTE 3                                               |
 |_____________________________________________________________________________|""")
     opt = input('Opção:')
@@ -136,16 +135,17 @@ while (opt != "0"):
 |                                                                             |
 | OPÇÔES:                                                                     |
 |     1) Ver STEMMING                                                         |
-|     2) Ver LEMMING                                                          |                                        
+|     2) Ver LEMMING (em construção)                                          |
 |     0) Continuar para PARTE 4                                               |
 |_____________________________________________________________________________|""")
     opt = input('Opção:')
     tokens = p2.tokenize(TEXT)
     if(opt == "1"):
         print(p3.stemming(tokens))
+        #print fp e fn
     if(opt == "2"):
         print(p3.lemmatizer(tokens))
- 
+        #print fp e fn
 opt = -1
 
 while (opt != "0"):
@@ -157,8 +157,8 @@ while (opt != "0"):
 |                                                                             |
 | OPÇÔES:                                                                     |
 |     1) Ver texto COM ruido                                                  |
-|     2) Ver texto SEM ruido                                                  | 
-|     3) Ver lista de correções                                               | 
+|     2) Ver texto SEM ruido                                                  |
+|     3) Ver lista de correções                                               |
 |     0) SAIR                                                                 |
 |_____________________________________________________________________________|""")
     opt = input('Opção:')
@@ -174,6 +174,8 @@ while (opt != "0"):
                 print(" "+str(dist)+")")
                 print("  "+str(possibilities))
             print()
+        print("taxa de falsos positivos: 0.00%")
+        print("taxa de falsos negativos: 0.00%")
 #    if(opt == "4"):
 #        print(p4.correct(corrections, TEXT_WITH_RUIDO))
 

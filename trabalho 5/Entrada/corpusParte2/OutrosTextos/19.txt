@@ -1,0 +1,5 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 27 de julho às 11:57 · 
+Hoje tem STREAM galëre, não percam!
+Em todos os dias que não tem stream, vou tentar corrigir bugs (normalmente entre 22h e 00h). Nas streams de QUARTA, a ideia é adicionar funcionalidades novas. Nas streams de DOMINGO, a intenção é adicionar classes novas (uma a cada domingo).
+Hoje por exemplo, pretendo adicionar a opção de troca de avatar, além de alterar os filtros usados na hora de mostrar os jogadores do PVP normal (e o match do ranked) :)

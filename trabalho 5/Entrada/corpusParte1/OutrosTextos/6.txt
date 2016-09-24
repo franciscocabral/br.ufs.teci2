@@ -1,0 +1,21 @@
+FFTO adicionou 3 novas fotos.
+Publicado por Murilo Mielke Nunes · 31 de julho às 23:22 · 
+STREAM OFF / PATCH NOTES!
+Pre-nota: eu fiz essa alteração mas esqueci de avisar, lol: a reação 'Imolar' do Piromante agora só é ativada por ataques físicos, e também só tem 33% de ser ativada (igual ao 'Revidar' da Amazona).
+--------------------------------------------
+Não consegui terminar o Arqueiro (sim, ele foi o escolhido) mas já adiantei bastante. O legal é que pra fazer o seu 'Tiro Carregável', eu tive que construir todo o conceito de CHARGE, então isso vai poder ser usado daqui pra frente.
+Falando em charge, agora a 'Bola de Fogo' do Piromante tem charge também :p Se você abrir a habilidade verá um '50T' ao lado da informação do range dela (imagem 1). 50T quer dizer um charge de '50%' de rodada. Num jogo 3x3 temos 6 personagens, então 50T significa uma espera de 3 turnos. Se fosse uma partida 1x1, a espera seria de 1 turno (o que quer dizer que seria executada assim que o Piromante passasse a vez).
+Quando você for usar uma habilidade com charge em batalha, é possível ver a quantidade de turnos que você terá que esperar do no título da janela de Efeitos (imagem 2).
+Ao confirmar, a unidade fica em posição de 'charge' e a habilidade aparece lá em cima na fila de turnos, assim fica bem fácil saber o que vem pela frente :p (imagem 3)
+Ps: Cartas NÃO tem charge. Tudo continua instantâneo nesse caso.
+Ainda vou implementar todas as restrições do charge, tipo você não poder se mover, ou verificar se o oponente ainda está no range quando a skill for realmente executada, etc, mas vou deixar isso pra bem depois.
+A parte legal é que mais pra frente posso adicionar bonus de equipamento que diminuem o charge das skills :3
+--------------------------------------------
+Resolvi um bug referente ao reset das contas (que espero que ninguém tenha abusado, lol).
+--------------------------------------------
+Resolvi outro bug referente ao HP das unidades não estar sendo resetado no caso de disconnect.
+--------------------------------------------
+Devo finalizar o Arqueiro antes da stream de quarta ;)
+Foto de FFTO.
+Foto de FFTO.
+Foto de FFTO.

@@ -16,7 +16,7 @@ https://pt.wikipedia.org/wiki/Lexema
 
 '''
 
-import nltk
+import nltk, parte1
 
 def stemming(tokens):
     st = nltk.stem.SnowballStemmer('portuguese')
@@ -31,3 +31,5 @@ def lemmatizer(tokens):
     for token in tokens:
         words.append(wnl.lemmatize(token))
     return words
+    
+

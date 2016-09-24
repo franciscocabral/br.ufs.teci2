@@ -1,0 +1,4 @@
+pessoa
+tempo
+lugar
+medida

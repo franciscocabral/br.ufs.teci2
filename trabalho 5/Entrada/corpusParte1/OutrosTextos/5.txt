@@ -1,0 +1,5 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 1 de agosto às 09:49 · 
+A versão 0.3.0 da APK já está disponível pra download.
+https://github.com/fiote/pocketTactics-apk/releases/latest
+Nada de muito importante nessa nova versão, só liberei pra apk ficar no mesmo ponto da versão web ;)

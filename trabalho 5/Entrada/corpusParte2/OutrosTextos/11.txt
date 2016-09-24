@@ -1,0 +1,7 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 30 de julho às 21:35 · 
+PATCH NOTES!
+Mais uma mudança no PVP. Peço desculpas lol, mas acho que finalmente cheguei num resultado satisfatório. Aquele filtro por level era uma ideia boa, mas um player que acabou de chegar no jogo e está level 1 podia acabar indo contra um player que já jogando faz tempo, mas que colocou uma defesa de 3 unidades level 1, só que com todos os equipamentos e skills compradas. A diferença de força é ridiculamente alta nesse caso.
+Do jeito que está agora, o 'poder de defesa' dos times é baseado nos atributos (então conta os equipamentos) e também pelas skills aprendidas e equipadas. O mesmo vale pro seu 'poder de ataque' (que agora pode ser visto tanto na tela da Equipe quanto na do PVP), que conta as duas 3 unidades mais poderosas.
+Hoje a noite devo postar uma preview das duas classes que eu estou planejando fazer, aí vocês comentam pra escolher qual vou implementar na stream de amanhã ;)
+Nenhum texto alternativo automático disponível.

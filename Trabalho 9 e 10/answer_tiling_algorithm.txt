@@ -1,0 +1,12 @@
+nomes = []
+
+#aumentar strings de maior relevancia
+inicio = 0
+for nome in nomes:
+    i = inicio
+    while i < len(nomes):
+        if nome in nomes[i] and i != nomes.index(nome):#se não for a mesma palavra
+            nomes[nomes.index(nome)] = nomes[i] #atualiza com a palavra mais completa
+            nomes.pop(i)	#remove elemento mais completo
+        i = i + 1
+    inicio = inicio + 1

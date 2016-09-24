@@ -1,0 +1,15 @@
+FFTO adicionou 2 novas fotos.
+Publicado por Murilo Mielke Nunes · 28 de julho às 00:18 · 
+STREAM OFF / PATCH NOTES!
+Agora vocês podem finalmente mudar o avatar. Por estarem participando do alpha, já ganharam os avatares das classes lançadas (e vão ganhar um novo a cada nova classe) :D
+A lista de adversários disponíveis no PVP normal agora é baseada no nível dos seus 3 personagens mais elevados. A média deles define o seu 'nível de ataque'. Você só poderá atacar pessoas com nível de defesa +3 ou -2 em relação a você.
+Já no PVP ranked, o nível não importa. O match é feito de acordo com a fama dos jogadores (num range -100/+100). Os jogadores bons/fortes vão acabar vencendo e ganhando fama, se distanciando dos jogadores fracos (que batalharão entre si, o que faz sentido).
+As premiações do PVP normal e ranked mudaram, como eu havia dito que aconteceria, mas ficaram diferentes do planejado. Basicamente, resumindo:
+- PVP normal: moedas, exp.
+- PVP ranked: moedas, fama, exp.
+No PVP normal, você precisa se manter atacando pessoas de nível maior que o seu pra ganhar um valor de moedas satisfatório. No PVP ranked, essa quantidade depende apenas da fama do oponente. Ter uma fama alta então é bastante vantajoso, já que isso basicamente serve pra te colocar pra batalhar contra pessoas que também tem fama alta, gerando então mais moedas em menos batalhas. Em ambos os casos o perdedor não ganha nenhuma moeda.
+A EXP é baseada na diferença no level de quem perdeu, então lutar contra times mais fortes é mais vantajoso, logicamente (fama não é levada em consideração aqui). Isso vale tanto pro normal quanto pro ranked.
+No PVP normal, não existe mais ganho/perda de fama, que é um recurso exclusivo do ranked agora. O vencedor ganha 10% da fama do perdedor, e o perdedor perde metade disso.
+:)
+Foto de FFTO.
+Foto de FFTO.

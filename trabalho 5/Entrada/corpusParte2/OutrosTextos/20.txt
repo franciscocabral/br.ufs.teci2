@@ -1,0 +1,16 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 27 de julho às 00:32 · 
+PATCH NOTES :p
+Primeiro de tudo: NERF! Tanto a reação 'Revidar' quanto o efeito 'Em Chamas' da skill 'Bola de Fogo' agora só tem 33% de chance de acontecer (antes estava em 100%).
+--------------------------------------------
+(#34) Se a última unidade de um time fosse morta pelo 'Revidar' da Amazona do time adversário, a batalha corria o risco de não terminar. Isso teoricamente foi resolvido.
+--------------------------------------------
+(#33) Se você se movesse no último turno da unidade antes da batalha terminar, ela começava a batalha seguinte sem pontos de movimento. Resolvido.
+--------------------------------------------
+(#29) Ao entrar na ranked, o servidor ainda estava com problema de um dos jogadores receber a vitória automaticamente. Isso foi teoricamente resolvido. 
+--------------------------------------------
+(#23) Até o momento, qualquer tipo de ataque feito contra uma Amazona estava ativando o 'Revidar' (caso ela tivesse essa reação, logicamente). Agora apenas ataques físicos (isto é, que escalam com Ataque, e não com Magia) vão ativar essa reação.
+--------------------------------------------
+(#22) Existia um bug em que unidades que participaram de batalha anteriores (mas não da atual) também recebiam XP no final da batalha. Isso foi resolvido.
+--------------------------------------------
+STREAM AMANHÃ! (ou hoje rs, já que já passou das 00h).

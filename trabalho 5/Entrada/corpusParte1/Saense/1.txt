@@ -1,0 +1,13 @@
+﻿A proteína beta-amiloide é um marcador biológico importante para o diagnóstico da doença de Alzheimer. Como a produção desta proteína é aumentada no cérebro dos portadores da doença, surgem placas de beta-amiloide que acabam por impedir o funcionamento correto dos neurônios, dando início aos sinais clínicos da doença.
+
+Diminuir a presença desta proteína no cérebro pode ser um caminho para retardar o progresso da doença. Contudo, a ação de fármacos no cérebro é dificultada pela barreira hematoencefálica (blood-brain barrier), que protege o sistema nervoso central contra a ação de agentes potencialmente tóxicos presentes no sangue.
+
+Por isso, cientistas testaram, em um modelo experimental de ratos com doença de Alzheimer, o efeito da radioterapia para diminuição da proteína beta-amiloide [1]. Foram irradiados, com radiação X, diferentes grupos de ratos de 30 semanas de vida.
+
+Seis grupos, com 3 a 6 ratos, tiveram a metade direita do cérebro irradiada com doses únicas (de 5, 10 ou 15 Gy) ou doses fracionadas (1 Gy x 10, 2 Gy x 5, ou 2 Gy x 10). Como a presença de placas de beta-amiloide varia muito, a metade esquerda de cada animal foi protegida por blindagem de chumbo para servir como controle e permitir a avaliação da percentagem de diminuição das placas em cada rato.
+
+Considerando os resultados medidos nos animais sacrificados 4 semanas após a irradiação, as maiores reduções de placas observadas foram: 78,5% para a dose fracionada de 2 Gy x 10, 71,8% para a dose fracionada de 2 Gy x 5, 56,9% para a dose única de 15 Gy. E a menor redução observada foi de 29,3% para a dose única de 5 Gy.
+
+Assim, o estudo comprovou que a radioterapia é eficiente para a redução das placas de beta-amiloide, o que pode ser um caminho para conter o avanço da doença de Alzheimer. Uma boa notícia é que os melhores resultados foram obtidos com doses relativamente baixas, quando comparadas a tratamentos completos de radioterapia de cabeça.
+
+Embora os resultados sejam cientificamente muito relevantes, há ainda muito a responder. É preciso, por exemplo, entender o mecanismo de redução destas placas, se é por eliminação de placas já existentes ou por prevenção de formação de novas placas, e também qual a extensão e a durabilidade deste efeito. As pesquisas continuarão e esta é uma direção promissora que poderá trazer alento aos doentes de Alzheimer.

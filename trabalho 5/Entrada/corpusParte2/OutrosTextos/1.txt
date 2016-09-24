@@ -1,0 +1,11 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 28 de julho às 18:08 · 
+Link pra baixar a APK e jogar pelo android:
+https://github.com/fiote/pocketTactics-apk/releases/latest
+Link pra poder jogar pelo browser: 
+http://104.236.192.215/pocket/#/splash
+Discord, pra vocês conversarem enquanto jogam (ou a qualquer hora rs): https://discord.gg/m6HxkdM
+Tutorial, pra você que chegou agora: 
+https://www.facebook.com/media/set/…
+Encontrou algum bug? poste como issue no github usando esse link aqui (usuários que postarem bugs lá serão recomensados!)
+https://github.com/fiote/pocketTactics-apk/issues

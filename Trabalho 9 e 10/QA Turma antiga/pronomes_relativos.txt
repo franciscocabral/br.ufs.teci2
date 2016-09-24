@@ -1,0 +1,4 @@
+﻿quem
+quando
+onde
+quanto

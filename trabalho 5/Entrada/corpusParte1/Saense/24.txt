@@ -1,0 +1,146 @@
+﻿Demanda e Oferta!
+Por Alexandre Portela Barbosa Msc
+
+ 
+1 – A DEMANDA E A OFERTA
+
+Estruturas de mercado, função demanda, função oferta, preço de equilíbrio no mercado de concorrência perfeita, escassez e excedente, tabelamento, deslocamentos das curvas de demanda e de oferta.
+
+1.1 – CLASSIFICAÇÃO DOS MERCADOS
+
+O mercado é o local onde se encontram os vendedores e compradores de determinados bens e serviços. Antigamente, a palavra mercado tinha uma conotação geográfica que hoje não mais subsiste, uma vez que os avanços tecnológicos nas comunicações permitem que hajam transações econômicas até sem contato físico entre o comprador e o vendedor, tais como nas vendas por telefone e/ou Internet.
+
+Os economistas classificam os mercados as seguinte forma: Concorrência perfeita – Trata-se de um mercado caracterizado pelos seguintes fatores: a)	Existência de um grande número de pequenos vendedores e compradores; b)	O produto transacionado é homogêneo; c)	Há livre entrada e saída de empresas no mercado; d)	Perfeita transparência, ou seja, perfeito conhecimento pelos compradores e vendedores, de tudo o que ocorre no mercado; e)	Perfeita mobilidade dos recursos produtivos
+
+Como se percebe por suas características, o mercado de concorrência perfeita não é facilmente encontrado na prática, embora possa se afirmar que os mercados que mais se aproximam dela são os mercados de produtos agrícolas.
+
+O mercado de concorrência perfeita é estudado pelos economistas para servir como um paradigma (referencial de perfeição) para análise dos outros mercados.
+
+Monopólio – é o mercado que se caracteriza pela existência de um único vendedor. O monopólio pode ser legal ou técnico.
+
+Oligopólio – é o mercado em que existe um pequeno número de vendedores ou em que, apesar de existir um grande número de vendedores, uma pequena parcela destes domina a maior parte do mercado.
+
+Monopsônio – é um mercado em que há apenas um único comprador.
+
+Oligopsônio – é o mercado caracterizado pela existência de um pequeno número de compradores ou ainda que, embora haja um grande número de compradores, uma pequena parte destes é responsável por uma parcela bastante expressiva das compras ocorridas no mercado.
+
+Concorrência Monopolística – trata-se de um mercado em que apesar de haver um grande número de produtores (e, portanto, ser um mercado concorrencial), cada um deles é como se fosse monopolista de seu produto, já que este é diferenciado dos demais. Esta não é a única classificação possível dos mercados, embora seja a mais utilizada. Uma importante diferenciação entre as estruturas de mercados reside no grau de controle que vendedores e compradores têm sobre o preço pelo qual o produto é transacionado no mercado. Na concorrência perfeita, nenhum vendedor ou comprador, considerado isoladamente, tem influência sobre o preço de mercado. Neste mercado, portanto, é somente a influência conjunta de todos os vendedores e de todos os compradores quem determina o preço de mercado. Nas demais estruturas de mercado, ou o vendedor ou o comprador, isoladamente, pode impor um preço ao mercado.
+
+1.2. A DEMANDA - CONCEITO:
+
+A demanda de um determinado bem é dada pela quantidade de bem que os compradores desejam adquirir num determinado período de tempo. Ela será representada pelo símbolo DX. A demanda do bem x depende de uma série de fatore, dos quais, os economistas consideram como os mais relevantes:
+
+O preço do bem x (Px); A renda do consumidor (Y); O preço de outros bens (Pz); Os hábitos e gostos dos consumidores (H). Matematicamente, pode-se expressar a demanda do bom de x pela seguinte expressão:
+
+Dx = f(Px, Y, Pz, H, etc.)
+
+Onde a letra f significa que Dx é função de e a palavra etc. abarca as outras possíveis variáveis.
+
+A demanda do bem x é, portanto, a resultante da ação conjunta ou combinada de todas essas variáveis. Assim, por exemplo, caso se deseja saber o que ocorre com a demanda do bem x se o preço do mesmo aumentar, é preciso supor que todas as demais variáveis que influenciam a demanda permaneçam com o mesmo valor, de modo que a variação da demanda seja atribuível exclusivamente a variação de preço.
+
+Nesse caso, podemos rescrever a demanda do bem x como sendo apenas a função do preço de x, já que as demais variáveis ficam com seu valor inalterado:
+
+Dx = f (Px)
+
+A esta relação denominaremos de função da demanda do bem de x e à sua representação gráfica será chamada de curva de demanda do bem x. Supondo-se que o bem x seja perfeitamente divisível, sua curva de demanda provavelmente assumirá o formato a seguir:
+
+Matematicamente, pode-se dizer que a demanda do bem x é uma função inversa ou decrescente do seu preço. Embora seja perfeitamente aceitável ao bom senso comum que a quantidade procurada do bem x varie inversamente ao seu preço, os economistas justificam tal comportamento da demanda em função de dois efeitos:
+
+a) Efeito-renda – quando o preço do bem x aumenta, o consumidor fica, em termos reais, mais pobre e, portanto, irá reduzir o consumo do bem; o inverso ocorrerá se o preço do bem x diminuir. b) Efeito-substituição – se o preço do bem x aumenta e o de outros bens fica constante, o consumidor procurará substituir o seu consumo por outro bem similar; se o preço diminuir, o consumidor aumentará o consumo do bem x às expensas da diminuição do consumo dos bens sucedâneos.
+
+1.2.2 – EXCEÇÕES À LEI DA PROCURA
+
+Há dias exceções à lei da procura: os chamados bens de Giffen e bens de Veblen. Os bens de Giffen são bens de pequenos valor, porém de grande importância no orçamento dos consumidores de baixa renda. Os bens de Veblen são bens de consumo ostentatório, tais como obras de arte, jóia, tapeçarias e automóveis de luxo. Tanto os bens de Giffen como os de Veblen têm curvas de demanda com inclinação positiva, ou seja, ascendentes da esquerda para a direita.
+
+1.2.3 – CURVA DE DEMANDA DO MERCADO Tudo o que foi exposto até agora referia-se ao consumidor individual, mas vale também para o mercado como um todo, já que a curva de demanda do mercado resulta de agregação das curvas individuais.
+
+Assim, por exemplo, se o mercado for composto por dois consumidores (A e B), Ter-se-ia:
+
+Consumidor A	Consumidor B	Mercado
+
+1.3 – A OFERTA
+
+Q quantidade do bem x, por unidade de tempo, que os vendedores desejam oferecer no mercado constitui a oferta do bem x. Similarmente à demanda, a oferta também é influenciada por diversas variáveis, entre elas:
+
+a)	o preço do bem x (Px); b)	preço dos insumos utilizados na produção (Pi); c)	tecnologia (T); d)	preço de outros bens (Pz).
+
+Matematicamente, pode-se expressar a oferta do bem x (Ox) pela seguinte função:
+
+Ox = f (Px . Pi . T . Pz . etc.)
+
+OBS.: etc. = refere-se a outras possíveis variáveis que possam influenciar a oferta.
+
+Assumindo-se a hipótese do carteris paribus:
+
+Ox = f (Px)
+
+Expressão que é denominada função de oferta do bem x; a sua representação gráfica, mostrada a seguir, é denominada de curva do bem x.
+
+A oferta do bem x é uma curva ascendente da esquerda para a direita, mostrando que, quanto maior o preço, maior será a quantidade que os produtores desejarão oferecer no mercado.
+
+A oferta do bem x é portanto, uma função direta ou crescente do preço.
+
+1.4 – O EQUILÍBRIO DE MERCADO NA CONCORRÊNCIA PERFEITA
+
+1.4.1 – CONCEITO: A oferta e a demanda do bem x conjuntamente determinam o preço de equilíbrio no mercado de concorrência perfeita. O preço de equilíbrio é definido como o preço que iguala as quantidades demandadas pelos compradores e as quantidades ofertadas pelos vendedores, de tal modo que ambos os grupos fiquem satisfeitos.
+
+1.4.2 – TRATAMENTO MATEMÁTICO
+
+Embora os economistas refiram-se às curvas de demanda e de oferta, estas também podem ser expressas linearmente.
+
+QDx = 280 - 4Px (demanda) QOx = - 20 + 2Px (oferta)
+
+Px	QDx = 280 – 4Px	QOx = 20 + 2Px 30	280 – (4 x 30) = 160	- 20 + (2 x 30) = 40 40	280 – (4 x 40) = 120	- 20 + (2 x 40) = 60 50 280 – (4 x 50) = 80	- 20 + (2 x 50) = 80 60	280 – (4 x 60) = 40	- 20 + (2 x 60) = 100
+
+Observando-se a tabela acima, percebe-se facilmente que o preço de equilíbrio é $50. Para se obter o preço de equilíbrio, seria mais fácil igualar-se as quantidades demandadas e ofertadas (já que o preço de equilíbrio iguala as duas quantidades).
+
+280 - 4Px = 20 + 2Px 300 = 6Px Px = 300 6 Px = 50
+
+1.4.3 – TABELAMENTO: Num mercado em concorrência perfeita, caso o Governo tabele o preço num valor inferior ao de equilíbrio, ocorrerá escassez do bem (excesso de quantidade demandada sobre a oferta). Tendo em vista que a solução adequada para esta escassez, que seria a elevação do preço de mercado, não é possível pois o mesmo está tabelado, não há outra alternativa ao não ser a administração da escassez.
+
+1.5 – MUDANÇA NO PREÇO DE EQUILÍBRIO DE MERCADO EM VIRTUDE DE DESLOCAMENTOS DAS CURVAS DE OFERTA E PROCURA
+
+1.5.1 – DESLOCAMENTOS DAS CURVAS DE DEMANDA
+
+A curva de demanda se desloca em relação à sua posição original quando uma daquelas variáveis que supusemos constantes quando traçamos a curva mudar de valor. Ela se deslocará para a direita da posição original quando a mudança do valor da variável antes suposta constante contribuir para aumentar a demanda e para a esquerda da posição original quando contribuir para diminuir a demanda.
+
+1.5.1.1 – MUDANÇA NA RENDA DOS CONSUMIDORES
+
+1.5.1.1.1 – BENS NORMAIS: Bens normais são aqueles cujo consumo aumenta à medida que a renda do consumidor se eleva.
+
+Suponha-se que um determinado nível de renda dos consumidores, a curva de demanda do bem x apresente os seguintes pares e quantidades procuradas:
+
+Px	QPx 10	100 11	90 12	81 13	76
+
+O gráfico seria o seguinte:
+
+Caso a renda dos consumidores se eleve, provavelmente eles aumentarão também as quantidades demandadas do bem x de tal forma que, para os possíveis níveis de preços:
+
+Px	QPx	QP’x 10	100	110 11	90	100 12	81	91 13	76	86
+
+1.5.1.1.2 – BENS INFERIORES: bens inferiores são bens cuja demanda diminui quando o nível de renda do consumidor aumenta e aumenta quando o consumidor fica mais pobre. Se o bem x for um bem inferior, o aumento de renda dos consumidores reduz a sua demanda, a curva desloca-se para a esquerda e o preço e a quantidade de equilíbrio diminuem.
+
+1.5.1.2 – MUDANÇAS NOS PREÇOS DE OUTROS BENS (PZ)Um determinado bem Z pode Ter as seguintes relações com o bem x: a)	Z é um bem de consumo independente de x; b)	Z é substituto de x; c)	Z é complementar de x.
+
+1.5.1.2.1 – BENS SUBSTITUTOS: São aqueles bens em que o consumo de um deles exclui o consumo do outro. A substituição não precisa ser total, basta o fato de ele comprar maiores quantidades de manteiga implicar um certa redução do seu consumo de margarina.
+
+1.5.1.2.2 – BENS COMPLEMENTARES: São os bens cujo consumo é feito geralmente de forma simultânea. Da mesma forma que a substitubilidade, a complementaridade não precisa ser total, ou seja, o consumo de um implicar necessariamente no consumo do outro, bastando que o consumo de ambos seja associado de alguma forma. Exemplo: Pão e manteiga.
+
+1.5.1.3 – HÁBITOS E GOSTOS DOS CONSUMIDORES: Esta variável é influenciada principalmente por campanhas de publicidade e propaganda do bem x. Por exemplo, se uma campanha publicitária convencer o consumidor que o consumo de um determinado produto faz bem a saúde, a demanda deste deverá aumentar e, consequentemente, elevar seu preço e quantidade de equilíbrio.
+
+1.5.2 – DESLOCAMENTOS DA CURVA DE OFERTA: A curva de oferta se desloca em relação à sua posição original quando uma daquelas variáveis que foram supostas constantes ao se traçar a curva mudar de valor. Se a mudança do valor da variável aumentar a oferta, ela se deslocará para a direita e de diminuir, para à esquerda da posição original.
+
+1.6 – TRATAMENTO MATEMÁTICO DA FUNÇÃO DEMANDA REVISITADO
+
+A demanda do bem x pode ser expressa matematicamente da seguinte forma:
+
+Dx = f (Px, Y, Pz, H, etc.)
+
+Assumindo-se que a função demanda seja linear, pode-se Ter, por exemplo:
+
+QDx = - 2Px + 0,05Y – 1,5Pz
+
+Aplicando-se a hipótese do cateris paribus, se for suposto que a renda do consumidor e o preço do outro bem permaneçam constantes em 1.000 e 8, respectivamente, obter-se à curva de demanda do bem x:
+
+QDx = -2Px + (0,05 x 1000) – (1,5 x 8) QDx = -2Px + 50 – 12 QDx = 38 – 2Px
+

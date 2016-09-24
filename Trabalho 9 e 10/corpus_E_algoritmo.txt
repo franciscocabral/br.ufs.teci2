@@ -1,0 +1,96 @@
+﻿Por quem foi dirigido o filme Os Caça Fantasmas?
+Quanto o filme Os Caça Fantasmas arrecadou?
+Por quem foi distribuido o filme Os Caça Fantasmas?
+De que ano é o filme Os Caça Fantasmas?
+Quem é o elenco de Os caça Fantasmas?
+https://pt.wikipedia.org/wiki/Os_Ca%C3%A7a-Fantasmas
+
+Quem é o elenco de Independence day?
+Por quem é dirigido o filme Independence day?
+De que ano é o filme Independence day?
+Aonde se passa o filme Independence day?
+https://pt.wikipedia.org/wiki/Independence_Day
+
+Por quem foi dirigido A Origem?
+Quem foi estrelado em A Origem?
+De que ano é o filme A Origem?
+Quem compôs a trilha sonora do filme A Origem?
+Quanto arrecadou o filme A Origem?
+https://pt.wikipedia.org/wiki/A_Origem
+
+Por quem foi dirigido o filme Batman O Cavaleiro das Trevas?
+Aonde se passa o filme Batman Batman O Cavaleiro das Trevas?
+Em que ano se passa O Cavaleiro das Trevas?
+Quanto arrecadou o filme Batman O Cavaleiro das Trevas?
+https://pt.wikipedia.org/wiki/The_Dark_Knight
+
+Por quem foi dirigido o filme O discurso do rei?
+Aonde foi produzido o filme O discurso do rei?
+Quantos prêmios o filme O discurso do rei ganhou?
+Por quem foi estrelado o filme O discurso do rei?
+Em que ano se passa o filme O discurso do rei?
+https://pt.wikipedia.org/wiki/O_Discurso_do_Rei
+
+Por quem foi dirigido o filme As aventuras de Pi?
+Onde se passa o filme As aventuras de Pi?
+Em que ano se passa o filme As aventuras de Pi?
+Quem é o elenco do filme As aventuras de Pi?
+https://pt.wikipedia.org/wiki/As_Aventuras_de_Pi
+
+Por quem foi dirigido o filme Waking Life?
+https://pt.wikipedia.org/wiki/Waking_Life
+
+Por quem foi dirigido O Menino da Internet: A História de Aaron Swartz?
+Por quem foi escrito O Menino da Internet: A História de Aaron Swartz?
+Por quem foi produzido O Menino da Internet: A História de Aaron Swartz?
+https://pt.wikipedia.org/wiki/O_Menino_da_Internet:_A_Hist%C3%B3ria_de_Aaron_Swartz
+
+Por quem foi dirigido Birdman?
+Por quem Birdman foi escrito?
+Birdman é estrelado por quem?
+Quando foi o lançamento de Birdman?
+https://pt.wikipedia.org/wiki/Birdman_ou_(A_Inesperada_Virtude_da_Ignor%C3%A2ncia)
+
+Quando dogville foi lançado?
+Por quem é dirigido Dogville?
+https://pt.wikipedia.org/wiki/Dogville
+
+Wall-E é dirigido por quem?
+Wall-E é produzido por?
+https://pt.wikipedia.org/wiki/WALL%C2%B7E
+
+Quando foi lançado efeito borboleta?
+Por quem efeito borboleta foi escrito?
+Por quem efeito borboleta foi dirigido?
+https://pt.wikipedia.org/wiki/Efeito_Borboleta_(filme)
+
+
+ALGORITMO DO ARTIGO
+http://www.aclweb.org/anthology/W02-1033
+1- recebe pergunta
+
+2 forma algumas reformulações (afirmações) com a pergunta original
+
+3 cada reformulação é utilizada em uma query que possui um peso,
+retornando uma lista de trechos (summaries) de todos os documentos
+
+4 Desses trechos coletam-se n-grams (unigrams, bi, tri)
+
+5 Os n-grams são armazenados e classificados de acordo
+com o peso da reformulação que o originou
+	obs: na classificação não é levado em conta multiplas ocorrencias em um trecho
+
+6 Os n-grams são reclassificados de acordo com o quão bem cada candidato
+se adequa ao tipo de resposta
+	obs:filtragem escrita a mão
+
+
+7 É aplicado um "answer tiling algorithm" que
+	junta substrings
+	junta respostas com interecção em comum  ABC + BCD -> ABCD
+
+"answer tiling algorithm"	
+É guloso e parte comparando com o melhor candidato
+ até os piores (quadratico)
+caso encontre uma resposta y maior/mais completa,
+ substitui o melhor candidato x por ela e apaga y da lista

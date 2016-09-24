@@ -1,0 +1,6 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 28 de julho às 09:47 · 
+Esqueci de falar no último post: A quantidade de EXP necessário por level mudou bastante (ficou mais difícil). Juntando isso com a mudança nas recompensas, eu decidi que é hora do primeiro reset.
+Vou implementar as restrições comentadas pra evitar que pessoas farmem igual loucas usando duas contas (com 'amigo' ou não, não importa) se atacando o tempo todo alternando vitórias. Não quero isso pro alpha, não faz sentido. Se a progressão estiver muito devagar, é só vocês falarem que eu faço ficar mais fácil. Mas abusar do sistema não, lol. Isso deve ficar pronto antes da stream de domingo.
+No domingo então, vou implementar uma nova classe. Provavelmente um arqueiro, ou algum tipo de unidade anti-magia. Assim que essa classe ficar pronta, o reset vai acontecer.
+<3 ;)

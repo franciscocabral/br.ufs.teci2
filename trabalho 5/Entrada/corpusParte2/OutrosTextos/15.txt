@@ -1,0 +1,3 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 28 de julho às 16:18 · 
+Hmm, mudei de ideia lol. Não deve rolar reset... MAS devo implementar a opção de você dar reset na sua conta, e colocar alguém tipo de bonus pra quem fizer isso (um avatar, talvez?). :p

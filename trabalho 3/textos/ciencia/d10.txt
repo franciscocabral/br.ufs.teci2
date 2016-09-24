@@ -1,0 +1,28 @@
+Google tem novo recurso que ajuda a ler quadrinhos pelo celular
+João Kurtzpor JOÃO KURTZ
+Para o TechTudo
+FACEBOOK
+TWITTER
+Uma nova atualização do Google Play Livros promete facilitar uma atividade complexa em celulares e tablets: a leitura de quadrinhos em dispositivos com telas pequenas. O aplicativo ganhou uma função que usa recursos de aprendizagem de máquinas para identificar os balões de fala dos personagens em uma página e dá zoom apenas nesta parte com o toque do usuário. A novidade já começou a ser liberada na última versão do app em forma de preview.
+Google Play Store não acha conexão? Saiba como resolver
+O recurso, chamado Bubble Zoom, possui a mesma tecnologia usada para reconhecer objetos em fotos disponível em outros produtos do Google, como o Google Fotos. No Play Livros, ela reconhece os balões de fala e os destaca em relação ao resto da imagem com apenas um toque.
+Recurso do Play Books aumenta falas de personagens em quadrinhos automaticamente (Foto: Reprodução/Google)
+Recurso do Play Books aumenta falas de personagens em quadrinhos automaticamente (Foto: Reprodução/Google)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download grátis do app do TechTudo: receba dicas e notícias de tecnologia no Android ou iPhone
+Isso facilita e agiliza a leitura dos usuários, que não precisam mais aumentar a tela manualmente em dispositivos pequenos. A função também pode ser controlada usando as teclas de volume do smartphone, garantindo que o aparelho interprete corretamente os toques na tela.
+Apesar de ser um sistema automático, o recurso está disponível apenas em forma de testes no Play Books e, por enquanto, só funciona em uma quantidade limitada de títulos da Marvel e DC Comics que podem ser adquiridos diretamente no aplicativo. O Google não informou se a funcionalidade poderá ser usada em outros arquivos carregados no app, como PDFs.
+Via Google e The Verge
+Como configurar Google Play para atualizar apps no Wi-Fi? Descubra no Fórum do TechTudo.

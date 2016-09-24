@@ -1,0 +1,12 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 30 de julho às 07:52 · 
+PATCH NOTES!
+Pre-nota: Dei uma agilizada nas ações dos bots (bots no caso eu digo a AI que controla os adversários no PVP normal). Agora eles vão esperar menos tempo antes de agir, e caso não tenham nada pra fazer vão passar a vez super rápido ;)
+--------------------------------------------
+(#36) Tanto o efeito da 'Regeneração' quanto do 'Em Chamas' não estavam contando os turnos e com isso eles ficavam lá até acabar a partida. Isso foi resolvido.
+--------------------------------------------
+(#37) Mais um erro que fazia a batalha ser encerrada com derrota sem motivo foi encontrado e resolvido. 
+--------------------------------------------
+(#38) A lista de jogadores disponíveis no PVP normal é baseada no nível médio das suas unidades, mas esse valor só estava sendo calculado no login. Se você upasse do lvl 5 ao lvl 7 (sem relogar) a lista continuaria mostrando oponentes de level 2~8 (ao invés de 5~10). Isso foi resolvido! O seu level de ataque agora é recalculado depois de cada batalha.
+--------------------------------------------
+o/

@@ -1,0 +1,8 @@
+FFTO adicionou 2 novas fotos.
+Publicado por Murilo Mielke Nunes · 2 de agosto às 00:53 · 
+E ae galerinha!
+Implementei uma feature que estava querendo fazer já faz um tempão! No início da luta, agora o jogo mostra quais foram as cartas que você recebeu. Além disso, no início de cada turno seguinte, a nova carta também é exibida! Essa informação fica na tela por 5 segundos, ou até você clicar em qualquer uma delas ;)
+Também corrigi alguns bugs de interface, então se você estiver jogando pelo celular, recomendo baixar a versão 0.4.0 (eu já baixei, lol)
+https://github.com/fiote/pocketTactics-apk/releases/latest
+Foto de FFTO.
+Foto de FFTO.

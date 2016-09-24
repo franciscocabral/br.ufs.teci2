@@ -1,0 +1,33 @@
+relações definidas:
+ator/filme
+diretor/filme
+
+
+#algoritmo
+
+para uma relação lexica a/b:
+	inicialize a lista de padroes como vazio
+        reuna uma lista de instancias em que a relação ocorre
+        (seja usando base de dados ou citando manualmente)
+	Enquanto Verdade:
+		
+		para cada nova instância 
+                      ache e guarde trechos do corpus onde essas instancias aparecem 
+                anexe a lista de instâncias novas a lista de instâncias 
+		compute a frequencia dos trechos encontrados
+		(hipotese definida: os trechos com maior frequencia tem mais chance de serem padrões) 
+		selecionar os top k de maior frequencia
+	
+		se não houver padrões novos: 
+			quebre o loop
+                informar ao programador os trechos selecionados
+		receber do programador quais são validos
+
+		para cada novo padrão w:
+			ache mais instancias da relação alvo com esse padrão
+			adicione as novas instancias encontradas na lista de instâncias novas
+ 
+		adicione os w padrões validados na lista de padrões  
+
+
+

@@ -1,0 +1,11 @@
+FFTO
+Publicado por Murilo Mielke Nunes · 4 de agosto às 09:34 · 
+RESUMO DA STREAM!
+Finalizei a passiva do Arqueiro :) Bonus de 50% nos ataques caso o alvo dele esteja em distância corporal, ficou muito bom!
+Aproveitei o embalo e comecei a fazer a Paladina de Olea. As suas duas habilidades principais - 'Remover Benção' e 'Purificar Mal' foram implementadas com sucesso ^^ A reação dela, 'Proteção Mágica', tinha como efeito uma chance de reduzir os ataques mágicos recebidos.
+Eu não estava muito satisfeito com isso (além de ficar meio confuso se deveria ser uma habilidade passiva ou de reação), então mudei o conceito. Agora funciona assim: Ao ser atacada, A Paladina tem x% de chance de aplicar o efeito 'silence' no atacante. Eu já consegui implementar a parte que aplica o efeito, mas apanhei na hora de verificar se esse efeito existe pra impedir as ações da unidade, então ficou faltando isso.
+Apareceu gente pra caramba na stream hoje. Valeu galerinha!
+Ps: Eu sei que talvez esse conceito de Paladino que estou usando não seja muito parecido com o que vocês conhecem. Tipo, existem 13 divindades no jogo, e cada uma delas podem ter clérigos/sacerdotes (como o Clérigo de Gariot), xamãs, e paladinos (como a Paladina de Olea). Cada unidade dessa tem habilidades que condizem com as idéias da sua divindade.
+Gariot é o deus da Vida, então faz sentido esse clérigo especificamente ter magias de cura e regeneração. Como Olea é o deus da Ordem, eu defini que os seus servos no geral seriam caçadores de magos. Eu poderia ter criado uma 'Sacerdotiza de Olea' com as mesmas habilidades, mas como a ideia era fazer uma unidade mais tank, resolvi usar o termo paladina pra implicar um uso de armaduras pesadas e talz.
+Terminando a Paladina, aaaaacho que devo começar o PVE.
+;) <3

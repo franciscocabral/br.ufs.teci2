@@ -1,0 +1,1 @@
+A comprovação experimental do modelo de Hubbard para a dinâmica quântica em materiais

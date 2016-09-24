@@ -24,7 +24,7 @@ def ruidar(text):
     new_text = ""
     for i in range(len(text)):
         if randint(0,20) >= 19 and text[i] != " ":
-            new_text = new_text + chr(ord(text[i]) + 1)
+            new_text = new_text + "F"
         else:
             new_text = new_text + text[i]
     return new_text

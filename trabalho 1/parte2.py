@@ -27,12 +27,13 @@ TOKENS_PATTERN = '[\wáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚ�
 @return {list} Lista de tokens
 '''
 def tokenize(text):
-    text = text.lower()
+    
     text = re.sub(p1.NUMBER_PATTERN, '', text)
     text = re.sub(p1.NAME_PATTERN_BOVESPA, '', text)
     text = re.sub(p1.NAME_PATTERN, '', text)
+    text = text.lower()
     tokenizer = nltk.tokenize.RegexpTokenizer(TOKENS_PATTERN)
-
+    
     tokens = tokenizer.tokenize(text)
     return tokens
   
