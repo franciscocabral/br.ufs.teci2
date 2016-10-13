@@ -100,7 +100,6 @@ def stemming(words):
 
     
 pronomes = {
-
        "quem":       "entity",
        "qual":       "entity",
        "quais":      "entity",
