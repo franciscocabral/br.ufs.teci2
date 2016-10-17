@@ -214,7 +214,7 @@ def nextWeekday(date, weekday, proximo=False):
 '''    
 def getTimes(text):
     response = []
-    regex = r'\b((?:[01]?[0-9]|2[0-4])(?: ?(?:hs|hrs|h|horas|:[0-5][0-9])))\b'
+    regex = r'\b((?:(?:[01]?[0-9]|2[0-4])(?:(?::[0-5][0-9])? ?(?:horas|hs|hrs|h|:[0-5][0-9])))|(?:[mM]anh[aã]|[tT]arde|[nN]oite|[mM]adrugada))'
     times = re.findall(regex, text)
     for horario in times:
         timeLower = horario.lower()
@@ -227,6 +227,23 @@ def getTimes(text):
             numbers = re.findall('([0-9]+):([0-9]+)', text)
             horas = int(numbers[0][0])
             minutos = int(numbers[0][1])
+            eventDate = eventTime.replace(hour=horas, minute=minutos)
+            
+        if("manha" in timeLower or "manhã" in timeLower):
+            horas = 9
+            minutos = 0
+            eventDate = eventTime.replace(hour=horas, minute=minutos)
+        if("tarde" in timeLower):
+            horas = 15
+            minutos = 0
+            eventDate = eventTime.replace(hour=horas, minute=minutos)
+        if("noite" in timeLower):
+            horas = 19
+            minutos = 0
+            eventDate = eventTime.replace(hour=horas, minute=minutos)
+        if("madrugada" in timeLower):
+            horas = 2
+            minutos = 0
             eventDate = eventTime.replace(hour=horas, minute=minutos)
         response.append((horario,eventDate.strftime('%H:%M') ))
         
