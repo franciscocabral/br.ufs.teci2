@@ -37,7 +37,11 @@ stemmedVerbosFile = codecs.open('verbos.txt','r', 'utf-8-sig')
 stemmedVerbos = nltk.word_tokenize(stemmedVerbosFile.read().lower())
 stemmedVerbosFile.close()
 
-
+'''
+    Imprime uma lista em linha.
+    
+    @param {any[]} List Lista a ser impressa.
+'''
 def inlinePrint(List):
     for l in List:
         print(l, end=" ")
@@ -164,6 +168,12 @@ def getDates(texto):
         response.append((text,eventDate.strftime('%d/%m/%Y') ))
     return response
 
+'''
+    Verifica se uma variável é um número ou não.
+    
+    @param {any} s Variável a ser tratada.
+    @return {boolean}
+'''  
 def is_number(s):
     try:
         float(s) # for int, long and float
@@ -174,6 +184,7 @@ def is_number(s):
             return False
 
     return True
+
 
 def setMonth(date, month):
     lastMonth = date.month
@@ -220,9 +231,10 @@ def getTimes(text):
         timeLower = horario.lower()
         eventTime = datetime.datetime.now()
         if("h" in timeLower):
-            numbers = re.findall('([0-9]+)', text)
-            horas = int(numbers[0])
-            eventDate = eventTime.replace(hour=horas, minute=0)
+            numbers = re.findall('([0-9]+)', timeLower)
+            if(len(numbers) > 0):
+                horas = int(numbers[0])
+                eventDate = eventTime.replace(hour=horas, minute=0)
         if(":" in timeLower):
             numbers = re.findall('([0-9]+):([0-9]+)', text)
             horas = int(numbers[0][0])
@@ -250,11 +262,16 @@ def getTimes(text):
     return response
 
     
+ 
+'''
+    Trata o texto para descobrir entidades relacionadas.
     
+    @param {String} text Texto a ser processado.
+    @return {String}
+'''     
 def getLembreteJson(text):
     response = {
         'text': text,
-        'treated': "",
         'persons': list(),
         'places': list(),
         'date': list(),
@@ -269,7 +286,7 @@ def getLembreteJson(text):
     return json.dumps(response)
 
 '''
-    ╔╗╚╝╠╣╦╩╬═║
+
 '''
 def main():
     texts = re.split("[\n]",corpus)
