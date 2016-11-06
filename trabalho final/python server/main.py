@@ -16,6 +16,8 @@ import random
 import datetime
 import calendar
 
+TEST = False
+
 current_time = lambda: int(round(time.time() * 1000))
 initialTime = current_time()
 
@@ -286,6 +288,24 @@ def getLembreteJson(text):
     return json.dumps(response)
 
 '''
+'''     
+def getLembreteInfo(text):
+    response = {
+        'text': text,
+        'persons': list(),
+        'places': list(),
+        'date': list(),
+        'time': list(),
+        }
+    
+    response['persons'] = getPersons(text)
+    response['places'] = getLocations(text)
+    response['date'] = getDates(text)
+    response['time'] = getTimes(text)
+        
+    return response
+
+'''
 
 '''
 def main():
@@ -313,4 +333,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    if(TEST == True):
+        main()
