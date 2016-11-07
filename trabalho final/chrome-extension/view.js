@@ -67,4 +67,5 @@ $("#save").on("click", function () {
     data['newTime'] = $("#time").val();
     data['newDate'] = $("#date").val();
     setLembrete(id, data);
+    window.location.replace("./all.html");
 });
