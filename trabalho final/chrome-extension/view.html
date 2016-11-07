@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Lembrete</title>
+    <link rel="stylesheet" type="text/css" href="./lib/semantic.min.css">
+    <link rel="stylesheet" href="./lib/select2.min.css"/>
+    <style type="text/css">
+        body {
+            background-color: #DADADA;
+        }
+
+        body > .grid {
+            height: 100%;
+        }
+        .image {
+            margin-top: -100px;
+        }
+
+        .column {
+            max-width: 850px;
+        }
+
+        .select2-container--default .select2-selection--multiple {
+            outline: 0;
+            border: 1px solid rgba(34, 36, 38, .15);
+        }
+
+        .select2-container--default.select2-container--focus .select2-selection--multiple {
+            outline: 0;
+            border-color: #85B7D9;
+        }
+
+        .select2-dropdown {
+            border-color: #85B7D9;
+        }
+    </style>
+</head>
+<body>
+<div class="ui middle aligned center aligned grid">
+    <div class="column">
+        <h2 class="ui blue image header">
+            <img src="icon.png" class="image">
+            <div class="content">
+                Lembre-me
+            </div>
+        </h2>
+        <form class="ui large form">
+            <div class="ui segment grid">
+                <div class="sixteen wide column field">
+                    Texto Completo:
+                    <div class="ui left icon input">
+                        <i class="write icon"></i>
+                        <input readonly id="text" type="text" name="text"
+                               placeholder="Escreva uma frase para criar o lembrete">
+                    </div>
+                </div>
+                <div class="eight wide column field">
+                    Pessoas:
+                    <select id="persons" name="persons" multiple placeholder="Pessoas envolvidas"></select>
+                </div>
+                <div class="eight wide column field">
+                    Lugares:
+                    <select id="places" name="places" multiple placeholder="Lugares envolvidas"></select>
+                </div>
+                <div class="four wide column field">
+                    Data:
+                    <div class="ui left icon input">
+                        <i class="calendar icon"></i>
+                        <input type="date" forma id="date" name="date"></input>
+                    </div>
+                </div>
+                <div class="four wide column field">
+                    Horário:
+                    <div class="ui left icon input">
+                        <i class="clock icon"></i>
+                        <input type="time" id="time" name="time"></input>
+                    </div>
+                </div>
+                <div class="eight wide column field"></div>
+
+                <div class="three wide column">
+                    <div class="ui fluid green submit button" id="save">
+                        Salvar
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="./lib/jquery-2.2.4.min.js"></script>
+<script src="./lib/semantic.min.js"></script>
+<script src="./lib/select2.full.min.js"></script>
+<script src="./lib/pt-BR.js"></script>
+<script src="lembrete.js"></script>
+<script src="view.js"></script>
+</body>
+</html>

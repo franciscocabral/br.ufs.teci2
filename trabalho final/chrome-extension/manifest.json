@@ -1,0 +1,27 @@
+{
+  "name": "Lembre-me",
+  "description": "Transforme frases em lembretes.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "notifications",
+    "contextMenus",
+    "http://*/"
+  ],
+  "content_scripts": [{
+    "js": ["all.js","create.js","lembrete.js","view.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }],
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    "icon.png"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

@@ -167,7 +167,7 @@ def getDates(texto):
         if(is_number(textLower)):
             if(int(textLower) == 00): continue
             eventDate = setDay(eventDate,int(textLower))
-        response.append((text,eventDate.strftime('%d/%m/%Y') ))
+        response.append((text,eventDate.strftime('%Y-%m-%d') ))
     return response
 
 '''
