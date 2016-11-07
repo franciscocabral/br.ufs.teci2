@@ -13,8 +13,8 @@ $(document).ready(function () {
             '</div>' +
             '</div>' +
             '<div class="two wide column">' +
-            '<div class="ui fluid green button right icon visualizar" data-id="'+id+'">' +
-            'Abrir&nbsp;<i class="arrow right icon"></i></div>' +
+            '<div class="ui fluid green button right visualizar" data-id="'+id+'">' +
+            'Abrir</div>' +
             '</div>';
         $('.lembretes').append(html);
     });
