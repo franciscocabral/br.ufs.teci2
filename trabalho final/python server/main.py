@@ -164,6 +164,8 @@ def getDates(texto):
             month = int(numbers[0][1])
             year =eventDate.year if month <= eventDate.month and day < eventDate.day else eventDate.year+1
             eventDate = eventDate.replace(day=day, month=month, year = year)
+        else:
+            eventDate = setDay(eventDate,int(re.findall('([0-9]+)', text)[0]))
         if(is_number(textLower)):
             if(int(textLower) == 00): continue
             eventDate = setDay(eventDate,int(textLower))
@@ -198,7 +200,7 @@ def setMonth(date, month):
 def setDay(date, day):
     lastDay = date.day
     newDate = date
-    if(lastDay >= day and datetime.datetime.now().year == date.year):
+    if(lastDay >= day and datetime.datetime.now().year == date.year and datetime.datetime.now().month == date.month):
         newDate = addMonths(date, 1)
     return newDate.replace(day=day)
     
@@ -244,19 +246,19 @@ def getTimes(text):
             eventDate = eventTime.replace(hour=horas, minute=minutos)
             
         if("manha" in timeLower or "manhã" in timeLower):
-            horas = 9
+            horas = 8
             minutos = 0
             eventDate = eventTime.replace(hour=horas, minute=minutos)
         if("tarde" in timeLower):
-            horas = 15
+            horas = 13
             minutos = 0
             eventDate = eventTime.replace(hour=horas, minute=minutos)
         if("noite" in timeLower):
-            horas = 19
+            horas = 18
             minutos = 0
             eventDate = eventTime.replace(hour=horas, minute=minutos)
         if("madrugada" in timeLower):
-            horas = 2
+            horas = 1
             minutos = 0
             eventDate = eventTime.replace(hour=horas, minute=minutos)
         response.append((horario,eventDate.strftime('%H:%M') ))
