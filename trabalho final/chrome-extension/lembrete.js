@@ -2,7 +2,7 @@
  * Created by Fancisco on 06/11/2016.
  */
 
-var URL = "http://localhost:5000/treat/";
+var URL = "http://localhost:5000/treat";
 
 function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),

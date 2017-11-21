@@ -14,7 +14,7 @@ $(document).ready(function () {
 $(".submit").on('click', function () {
     var text = $("[name=text]").val();
     $.ajax({
-        url: URL + text,
+        url: URL+"?text="+text,
     }).done(function (result) {
         var id = addLembrete(result);
         window.location.replace("./view.html?id="+id);

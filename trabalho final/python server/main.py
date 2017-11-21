@@ -157,18 +157,24 @@ def getDates(texto):
         elif("dez" in textLower): eventDate = setMonth(eventDate, 12)
         
         if("dia" in textLower) and ("/" not in textLower): 
-            eventDate = setDay(eventDate,int(re.findall('([0-9]+)', text)[0]))
+            results = re.findall('([0-9]+)', textLower)
+            if (len(results) > 0):
+                eventDate = setDay(eventDate, int(results[0]))
         if("/" in textLower): 
-            numbers = re.findall('([0-9]+)\/([0-9]+)', text)
+            numbers = re.findall('([0-9]+)\/([0-9]+)', textLower)
             day = int(numbers[0][0])
             month = int(numbers[0][1])
-            year =eventDate.year if month <= eventDate.month and day < eventDate.day else eventDate.year+1
+            year = eventDate.year if month <= eventDate.month and day < eventDate.day else eventDate.year+1
             eventDate = eventDate.replace(day=day, month=month, year = year)
         else:
-            eventDate = setDay(eventDate,int(re.findall('([0-9]+)', text)[0]))
+            results = re.findall('([0-9]+)', textLower)
+            if (len(results) > 0):
+                tmp = int(results[0])
+                if(tmp > 0):
+                    eventDate = setDay(eventDate, tmp)
         if(is_number(textLower)):
             if(int(textLower) == 00): continue
-            eventDate = setDay(eventDate,int(textLower))
+            eventDate = setDay(eventDate, int(textLower))
         response.append((text,eventDate.strftime('%Y-%m-%d') ))
     return response
 

@@ -13,10 +13,11 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-@app.route("/treat/<string:text>", methods=['GET'])
+@app.route("/treat", methods=['GET'])
 @cross_origin()
-def treat(text):
+def treat():
     if(request.method == 'GET'):
+        text = request.args['text']
         return p1.getLembreteInfo(text)
         
 if __name__ == "__main__":
